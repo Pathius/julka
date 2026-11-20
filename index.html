@@ -2743,7 +2743,7 @@ function drawPhotoOverlay() {
     const w = 172, x = CX - w / 2, y = 40;
     const dev = clamp((t - 170) / 140, 0, 1);
     ctx.save(); ctx.translate(x + w / 2, y + 95); ctx.rotate(0.02); ctx.translate(-(x + w / 2), -(y + 95));
-    drawPolaroid(x, y, w, polaroidImage(), dev, 'Sopot, 14 października 2026');
+    drawPolaroid(x, y, w, polaroidImage(), dev, 'Sopot, 14 listopada 2026');
     ctx.restore();
     if (t > 320) text('Enter — zamknij', CX, H - 18, 9, '#a89478', 'center', { shadow: false });
     if (t > 210 && t < 320) text('wywołuje się...', CX, 22, 10, '#d8c8b0', 'center');
